@@ -1,0 +1,11 @@
+{
+    "AllowBackForwardCacheForCacheControlNoStorePageEnabled": true,
+    "AllowDinosaurEasterEgg": true,
+    "AppStoreRatingEnabled": false,
+    "AutoplayAllowed": false,
+    "BrowserSignin": false,
+    "ChromeCleanupEnabled": true,
+    "ChromeCleanupReportingEnabled": false,
+    "FullscreenAllowed": false
+
+}

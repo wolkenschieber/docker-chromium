@@ -1,0 +1,7 @@
+{
+    "DefaultSearchProviderEnabled": true,
+    "DefaultSearchProviderIconURL": "https://duckduckgo.com/favicon.ico",
+    "DefaultSearchProviderName": "Duck Duck Go",
+    "DefaultSearchProviderNewTabURL": "https://duckduckgo.com/",
+    "DefaultSearchProviderSearchURL": "https://duckduckgo.com/?q={searchTerms}"
+}
