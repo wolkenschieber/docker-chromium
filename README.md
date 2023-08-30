@@ -2,7 +2,7 @@
 
 In today's digital landscape, web browsing has become an integral part of our daily lives, enabling us to access a wealth of information, services, and entertainment at our fingertips. However, this convenience comes with its fair share of risks, including malicious advertisements, tracking scripts, and potentially harmful content that can compromise our online privacy and security.
 
-To address these concerns and provide users with a robust solution, we are excited to unveil that this project enhances the [linuxserver/chromium](https://hub.docker.com/r/linuxserver/chromium) image by adding the power of uBlock Origin, a highly effective ad-blocker and content filter.
+To address these concerns and provide users with a robust solution, we are excited to unveil that this project [wolkenschieber/docker-chromium](https://hub.docker.com/r/wolkenschieber/docker-chromium) enhances the [linuxserver/chromium](https://hub.docker.com/r/linuxserver/chromium) image by adding the power of uBlock Origin, a highly effective ad-blocker and content filter.
 
 ## Building
 
