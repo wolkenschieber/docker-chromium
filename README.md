@@ -6,8 +6,16 @@ To address these concerns and provide users with a robust solution, we are excit
 
 ## Building
 
+### Amd64
+
 ```bash
 docker build --no-cache --pull -t wolkenschieber/docker-chromium:latest .
+```
+
+### Arm64v8
+
+```bash
+docker buildx build --platform linux/arm64  --pull -t wolkenschieber/docker-chromium:arm64v8-latest -f Dockerfile.aarch64 .
 ```
 
 ## Running
