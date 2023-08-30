@@ -1,4 +1,4 @@
-FROM linuxserver/chromium:arm64v8-latest
+FROM linuxserver/chromium:amd64-latest AS build
 
 LABEL maintainer="wolkenschieber"
 LABEL project_page="https://github.com/wolkenschieber/docker-chromium"
@@ -9,3 +9,6 @@ COPY /policies /etc/chromium/policies
 
 RUN \
     chmod -w /etc/chromium/policies/managed
+
+FROM linuxserver/chromium:arm64v8-latest
+COPY /policies /etc/chromium/policies
