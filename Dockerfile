@@ -7,4 +7,5 @@ ENV TITLE=Chromium
 
 COPY /policies /etc/chromium/policies
 
-RUN /bin/bash -c 'chmod -w /etc/chromium/policies/managed'
+SHELL ["/bin/bash", "-c"]
+RUN chmod -w /etc/chromium/policies/managed

@@ -5,10 +5,11 @@ LABEL project_page="https://github.com/wolkenschieber/docker-chromium"
 
 ENV TITLE=Chromium
 
+
 COPY /policies /etc/chromium/policies
 
-RUN \
-    chmod -w /etc/chromium/policies/managed
+SHELL ["/bin/bash", "-c"]
+RUN chmod -w /etc/chromium/policies/managed
 
 FROM linuxserver/chromium:arm64v8-latest
 COPY /policies /etc/chromium/policies
