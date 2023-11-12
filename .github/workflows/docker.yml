@@ -4,6 +4,8 @@ run-name: ${{ github.actor }} is building Docker images
 on: 
   push:
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 6'
 
 jobs:
   log-metadata:
